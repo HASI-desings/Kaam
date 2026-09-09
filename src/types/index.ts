@@ -40,6 +40,7 @@ export interface Job {
   status: JobStatus;
   is_boosted: boolean;
   progress_percent: number;
+  pause_count: number;
 }
 
 export interface Offer {

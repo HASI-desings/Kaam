@@ -28,4 +28,6 @@ export default function ReliabilityRing({ score, size = 88 }: { score: number; s
       <span className="absolute text-lg font-semibold tabular-nums text-text-light dark:text-text-dark">
         {inView ? score : 0}
       </span>
-    
+    </div>
+  );
+}

@@ -1,5 +1,5 @@
 export default function ProgressBar({ percent }: { percent: number }) {
-  const color = percent >= 90 ? "bg-success" : percent >= 40 ? "bg-teal" : "bg-amber";
+  const color = percent >= 90 ? "bg-success" : percent >= 40 ? "bg-trust" : "bg-warning";
   return (
     <div className="w-full h-2.5 rounded-full bg-border-light dark:bg-border-dark overflow-hidden">
       <div
